@@ -20,11 +20,11 @@ $setglobal swf 'disentangled'
 
 * Time Discount Rate (rho) of the Ramsey equation
 * [0.001, 0.03] with default 0.015 in DICE2016
-$setglobal prstp 0.015
+$setglobal prstp 0.010
 
 * Elasticity of marginal utility of consumption in the Ramsey equation
 * with default 1.45 in DICE2016
-$setglobal elasmu 1.45
+$setglobal elasmu 0.95
 
 * Inequality aversion
 * Range: [0,1.5]; good options: | 0 | 0.5 | 1.45 | 2 |

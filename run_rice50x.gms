@@ -25,11 +25,11 @@ $setglobal n 'ed57'
 
 * BASELINE SCENARIO
 *| ssp1 | ssp2 | ssp3 | ssp4 | ssp5 |
-$setglobal baseline 'ssp2'
+$setglobal baseline 'ssp5'
 
 * POLICY
 * | bau | bau_impact | cba | cbudget | cbudget_regional | ctax | simulation | simulation_tatm_exogen | simulation_climate_regional_exogen |
-$setglobal policy 'bau'
+$setglobal policy 'cba'
 
 * COOPERATION
 * | coop | noncoop | coalitions
@@ -37,7 +37,7 @@ $setglobal cooperation 'noncoop'
 
 * IMPACT SPECIFICATION
 * | off | dice | burke | dell | kalkuhl | howard | climcost | coacch |
-$setglobal impact 'kalkuhl'
+$setglobal impact 'dell'
 
 * CLIMATE MODULE
 * | dice2016 | cbsimple | witchco2 | witchoghg |
@@ -48,7 +48,7 @@ $setglobal climate 'witchco2'
 $setglobal savings 'fixed'
 
 * DEFAULT RESULTS FILENAME if nameout is not set
-$setglobal nameout "%baseline%_%policy%"
+$setglobal nameout "%baseline%_%cooperation%_%impact%"
 
 
 *=========================================================================
